@@ -1,0 +1,50 @@
+{
+  "name": "@gulibs/use-callback-state-hook",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
+  },
+  "license": "MIT",
+  "keywords": [
+    "storage",
+    "react storage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnizGu/use-callback-state-hook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnizGu/use-callback-state-hook/issues"
+  },
+  "homepage": "https://github.com/AnizGu/use-callback-state-hook#readme",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/node": "^18.13.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
